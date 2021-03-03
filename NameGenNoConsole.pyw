@@ -9,7 +9,6 @@ class Graphics():
     graphics.btn()
     graphics.loop()
     """
-
     gen_name = ""
     def __init__(self, namegen):
         self.namegen = namegen
@@ -96,5 +95,4 @@ if(__name__ == "__main__"):
     graphics = Graphics(namegen)
     graphics.btn()
     graphics.loop()
-
 
